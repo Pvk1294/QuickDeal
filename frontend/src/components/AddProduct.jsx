@@ -48,9 +48,6 @@ function AddProduct() {
                     alert('server err')
                 })
         })
-
-
-
     }
 
     return (
