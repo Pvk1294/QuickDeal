@@ -20,7 +20,7 @@ A full-stack web application for buying and selling products, similar to OLX. It
 | :--------------- | :--------------------------------------- |
 | **Frontend** | React, React Router, Axios               |
 | **Backend** | Node.js, Express.js                      |
-| **Database** | PostgreSQL / MongoDB *(Update with the one you used)* |
+| **Database** | MongoDB  |
 | **Authentication** | JSON Web Tokens (JWT), bcrypt.js         |
 
 ---
@@ -44,7 +44,7 @@ To run this project locally:
     cp .env.example .env
     
     # Add your database URL and JWT secret to the new .env file
-    npm run dev
+    npm start
     ```
 
 3.  **Setup the Frontend:**
